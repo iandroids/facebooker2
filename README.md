@@ -29,7 +29,7 @@ Secret, and Application ID handy.
 4- Add the following line to your `app/controllers/application_controller.rb`
    (add it right after the line class `ApplicationController < ActionController::Base` so as to add the Facebooker2 instance methods to the Application controller)
 
-    include Facebooker2::Rails::Controller
+    include [Facebook](https://aapks.com/apk/facebook/)::Rails::Controller
 
 5- Update your rails applications to use the rails helpers.  This could be in a
 shared login partial.
